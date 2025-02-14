@@ -1,0 +1,7 @@
+smtp:
+  port: 465
+  host: smtp.hostinger.com
+  username: ~ # must complete
+  password: ~ # must complete
+port: 3000
+logLevel: warn
