@@ -383,13 +383,15 @@
                                             <tr>
                                               <th style="background-color: #06A1C0; color: #ffffff; text-align: left; padding: 8px;">Código</th>
                                               <th style="background-color: #06A1C0; color: #ffffff; text-align: left; padding: 8px;">Descripción</th>
+                                              <th style="background-color: #06A1C0; color: #ffffff; text-align: left; padding: 8px;">Cantidad</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             {{#each items}}
                                               <tr>
                                                 <td style="padding: 8px; border-bottom: 1px solid #ddd;">{{code}}</td>
-                                                <td style="padding: 8px; border-bottom: 1px solid #ddd;">{{description}}</td>
+                                                <td style="padding: 8px; border-bottom: 1px solid #ddd;">{{name}}</td>
+                                                <td style="padding: 8px; border-bottom: 1px solid #ddd;">{{itemCount}}</td>
                                               </tr>
                                             {{/each}}
                                             </tbody>

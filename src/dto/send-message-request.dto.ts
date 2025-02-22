@@ -40,11 +40,13 @@ export class SendMessageRequestDto {
       totalAmount: '$ 21.000,50',
       items: [{
         code: 'NPK',
-        description: 'SODIO, POTASIO Y CALCIO EN SANGRE',
+        name: 'SODIO, POTASIO Y CALCIO EN SANGRE',
+        itemCount: 1,
       },
       {
         code: 'ABI',
-        description: 'ACIDOS BILIARES',
+        name: 'ACIDOS BILIARES',
+        itemCount: 1,
       }],
     },
   })
