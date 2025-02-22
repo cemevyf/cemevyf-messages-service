@@ -3,5 +3,5 @@ smtp:
   host: smtp.hostinger.com
   username: ~ # must complete
   password: ~ # must complete
-port: 3000
+port: 9800
 logLevel: warn
